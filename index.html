@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test de Energía Masculina vs Femenina</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+    <div class="container animate__animated animate__fadeIn">
+        <h1>⚡🌿 Test de Energía Masculina vs Femenina 🌿⚡</h1>
+        <p class="subtitle">Descubre qué energía predomina en ti y obtén recomendaciones personalizadas</p>
+        
+        <div id="quiz" class="card"></div>
+
+        <div id="result" class="result-card animate__animated animate__fadeInUp">
+            <h2 id="resultTitle"></h2>
+            <canvas id="resultChart" width="220" height="220"></canvas>
+            <p id="resultDescription"></p>
+            <button id="restartBtn" class="btn">🔄 Hacer de nuevo</button>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
